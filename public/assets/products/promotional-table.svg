@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141417"/>
+      <stop offset="100%" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <linearGradient id="redMain" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="50%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+    <linearGradient id="poleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="25" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="530" rx="220" ry="30" fill="#000000" opacity="0.75"/>
+  <ellipse cx="400" cy="510" rx="140" ry="18" fill="#EF4444" opacity="0.18"/>
+
+  <!-- Promotional Sampling Table assembly -->
+  <g filter="url(#shadow)">
+    <!-- Vertical Support Poles -->
+    <rect x="290" y="110" width="10" height="230" fill="url(#poleGrad)"/>
+    <rect x="500" y="110" width="10" height="230" fill="url(#poleGrad)"/>
+
+    <!-- Top Overhead Header Board Banner -->
+    <rect x="230" y="80" width="340" height="90" rx="6" fill="url(#redMain)" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="400" y="125" font-family="'Inter', sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">PROMOTIONAL TABLE</text>
+    <text x="400" y="150" font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#FEF08A" text-anchor="middle" letter-spacing="1">PORTABLE SAMPLING DEMO COUNTER</text>
+
+    <!-- Table Countertop (Curved edge) -->
+    <ellipse cx="400" cy="335" rx="190" ry="25" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <ellipse cx="400" cy="338" rx="190" ry="23" fill="#E2E8F0"/>
+
+    <!-- Lower Curved Body Wrap -->
+    <path d="M 210,336 Q 400,365 590,336 L 575,515 Q 400,545 225,515 Z" fill="url(#redMain)" stroke="#B91C1C" stroke-width="2"/>
+
+    <!-- Base Trim -->
+    <path d="M 225,515 Q 400,545 575,515 L 575,528 Q 400,558 225,528 Z" fill="#F8FAFC"/>
+
+    <!-- Table Front Graphic Emblems (Fruits/Product motif from user image) -->
+    <g transform="translate(400, 420)">
+      <circle cx="-90" cy="-30" r="24" fill="#FEF08A" opacity="0.9"/>
+      <circle cx="-90" cy="-30" r="18" fill="#FBBF24"/>
+      
+      <circle cx="0" cy="-35" r="28" fill="#FCA5A5" opacity="0.9"/>
+      <circle cx="0" cy="-35" r="22" fill="#DC2626"/>
+
+      <circle cx="90" cy="-30" r="24" fill="#BBF7D0" opacity="0.9"/>
+      <circle cx="90" cy="-30" r="18" fill="#22C55E"/>
+
+      <text x="0" y="25" font-family="'Inter', sans-serif" font-weight="900" font-size="18" fill="#FFFFFF" text-anchor="middle">PREMIUM QUALITY</text>
+      <text x="0" y="48" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#FEF08A" text-anchor="middle" letter-spacing="1">QUICK ASSEMBLY • LIGHTWEIGHT PVC</text>
+      <text x="0" y="70" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#FFFFFF" text-anchor="middle" opacity="0.9">Includes Carry Bag • Holds 20+ KG</text>
+    </g>
+  </g>
+
+  <!-- Top Badge -->
+  <rect x="30" y="30" width="180" height="32" rx="6" fill="#1E293B" stroke="#EF4444" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="6" fill="#EF4444"/>
+  <text x="66" y="51" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">PROMO COUNTER TABLE</text>
+</svg>

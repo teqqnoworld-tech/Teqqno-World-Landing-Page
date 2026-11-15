@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141417"/>
+      <stop offset="100%" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <linearGradient id="machineBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="machineSilver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="40%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="25" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Print Factory Floor with clean reflections -->
+  <polygon points="0,380 800,380 800,600 0,600" fill="#18181B"/>
+  <ellipse cx="400" cy="540" rx="350" ry="40" fill="#000000" opacity="0.6"/>
+
+  <!-- Wide-Format Roll-to-Roll Plotter Printer -->
+  <g filter="url(#shadow)">
+    <!-- Main Printer Top Gantry Beam Chassis -->
+    <rect x="140" y="140" width="560" height="130" rx="8" fill="url(#machineBlue)"/>
+    <rect x="140" y="160" width="560" height="40" fill="url(#machineSilver)"/>
+
+    <!-- Linear Motion Carriage Rail & Printheads -->
+    <rect x="180" y="170" width="480" height="16" rx="2" fill="#0F172A"/>
+    <rect x="360" y="155" width="80" height="45" rx="4" fill="#3B82F6" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- LED Curing Lamp / Status lights on Carriage -->
+    <circle cx="380" cy="177" r="4" fill="#22C55E"/>
+    <circle cx="400" cy="177" r="4" fill="#38BDF8"/>
+    <circle cx="420" cy="177" r="4" fill="#FACC15"/>
+
+    <!-- Dual Heavy Duty Cast Iron Support Legs / Stands -->
+    <!-- Left Stand -->
+    <polygon points="170,270 230,270 210,480 150,480" fill="#1E3A8A"/>
+    <rect x="130" y="480" width="100" height="20" rx="4" fill="#0F172A"/>
+    <!-- Right Stand -->
+    <polygon points="610,270 670,270 690,480 630,480" fill="#1E3A8A"/>
+    <rect x="610" y="480" width="100" height="20" rx="4" fill="#0F172A"/>
+
+    <!-- Media Roll Feed Core Roller -->
+    <rect x="200" y="270" width="440" height="30" rx="4" fill="url(#machineSilver)"/>
+
+    <!-- Continuous Printed Flex / Vinyl Banner Coming Out -->
+    <!-- Banner Sheet extending forwards onto table / takeup reel -->
+    <path d="M 220,270 L 620,270 L 640,490 Q 420,530 200,490 Z" fill="url(#bannerGrad)" stroke="#B45309" stroke-width="2"/>
+
+    <!-- High Definition Print Artwork on Banner -->
+    <g transform="translate(420, 390)">
+      <circle cx="-60" cy="-30" r="45" fill="#FEF3C7" opacity="0.95"/>
+      <circle cx="-60" cy="-30" r="35" fill="#F59E0B"/>
+      <text x="-60" y="-23" font-family="'Inter', sans-serif" font-weight="900" font-size="14" fill="#78350F" text-anchor="middle">SALE</text>
+
+      <text x="50" y="-45" font-family="'Inter', sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle">FLEX &amp; VINYL</text>
+      <text x="50" y="-20" font-family="'Inter', sans-serif" font-weight="800" font-size="15" fill="#FEF08A" text-anchor="middle">SOLVENT PRINTING</text>
+      <text x="50" y="2" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#FFFFFF" text-anchor="middle">1440 DPI High-Res • UV Star Flex</text>
+
+      <rect x="-180" y="40" width="360" height="40" rx="6" fill="#18181B" opacity="0.85"/>
+      <text x="0" y="65" font-family="'Inter', sans-serif" font-weight="800" font-size="13" fill="#38BDF8" text-anchor="middle">WIDE FORMAT CONTINUOUS ROLL-TO-ROLL</text>
+    </g>
+
+    <!-- Industrial PC Operator Console on Left Stand -->
+    <rect x="70" y="160" width="60" height="50" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+    <rect x="75" y="165" width="50" height="40" fill="#0284C7"/>
+    <text x="100" y="188" font-family="'Inter', sans-serif" font-weight="700" font-size="8" fill="#FFFFFF" text-anchor="middle">RIP ONLINE</text>
+    <line x1="100" y1="210" x2="100" y2="280" stroke="#0F172A" stroke-width="4"/>
+  </g>
+
+  <!-- Top Badge -->
+  <rect x="30" y="30" width="180" height="32" rx="6" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="6" fill="#3B82F6"/>
+  <text x="66" y="51" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">FLEX &amp; VINYL PRINTING</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141417"/>
+      <stop offset="100%" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <linearGradient id="redP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+    <linearGradient id="whiteP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="25" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="510" rx="280" ry="30" fill="#000000" opacity="0.7"/>
+
+  <!-- Array of Promotional Umbrellas -->
+  <!-- Left Background Umbrella -->
+  <g opacity="0.65" transform="translate(180, 240) scale(0.65)">
+    <path d="M 0,-180 Q -150,-50 -240,40 Q -120,60 0,55 Q 120,60 240,40 Q 150,-50 0,-180 Z" fill="url(#redP)"/>
+    <line x1="0" y1="55" x2="0" y2="200" stroke="#1E293B" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 0,200 Q 0,250 -35,250 Q -70,250 -70,220" fill="none" stroke="#1E293B" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Background Umbrella -->
+  <g opacity="0.65" transform="translate(620, 240) scale(0.65)">
+    <path d="M 0,-180 Q -150,-50 -240,40 Q -120,60 0,55 Q 120,60 240,40 Q 150,-50 0,-180 Z" fill="url(#redP)"/>
+    <line x1="0" y1="55" x2="0" y2="200" stroke="#1E293B" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 0,200 Q 0,250 35,250 Q 70,250 70,220" fill="none" stroke="#1E293B" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main Hero Promotional Umbrella -->
+  <g filter="url(#shadow)" transform="translate(400, 280)">
+    <!-- Shaft & Handle -->
+    <line x1="0" y1="70" x2="0" y2="230" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+    <rect x="-6" y="210" width="12" height="20" fill="#CBD5E1"/>
+    <!-- Curved J-Handle or Straight Ergonomic Grip -->
+    <path d="M 0,230 Q 0,280 40,280 Q 75,280 75,245" fill="none" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Top Cap / Ferrule -->
+    <path d="M -8,-160 L 8,-160 L 4,-180 L -4,-180 Z" fill="#0F172A"/>
+
+    <!-- Canopy Rib Panels (Alternating Red & White) -->
+    <!-- Far Left (White) -->
+    <path d="M 0,-160 Q -140,-50 -260,60 Q -200,75 -150,70 Q -90,-40 0,-160 Z" fill="url(#whiteP)"/>
+    <!-- Mid Left (Red) -->
+    <path d="M 0,-160 Q -90,-40 -150,70 Q -80,80 0,75 Q -40,-40 0,-160 Z" fill="url(#redP)"/>
+    <!-- Mid Right (White) -->
+    <path d="M 0,-160 Q -40,-40 0,75 Q 80,80 150,70 Q 90,-40 0,-160 Z" fill="url(#whiteP)"/>
+    <!-- Far Right (Red) -->
+    <path d="M 0,-160 Q 90,-40 150,70 Q 200,75 260,60 Q 140,-50 0,-160 Z" fill="url(#redP)"/>
+
+    <!-- Fiberglass Rib Tips -->
+    <circle cx="-260" cy="60" r="4" fill="#0F172A"/>
+    <circle cx="-150" cy="70" r="4" fill="#0F172A"/>
+    <circle cx="0" cy="75" r="4" fill="#0F172A"/>
+    <circle cx="150" cy="70" r="4" fill="#0F172A"/>
+    <circle cx="260" cy="60" r="4" fill="#0F172A"/>
+
+    <!-- Precision Corporate Logo Print on Canopy -->
+    <!-- On Red Panel -->
+    <g transform="translate(-80, -20) rotate(-16)">
+      <rect x="-40" y="-15" width="80" height="30" rx="4" fill="#FFFFFF" opacity="0.95"/>
+      <text x="0" y="5" font-family="'Inter', sans-serif" font-weight="900" font-size="12" fill="#B91C1C" text-anchor="middle">YOUR LOGO</text>
+    </g>
+
+    <!-- On White Panel -->
+    <g transform="translate(75, -20) rotate(16)">
+      <text x="0" y="-2" font-family="'Inter', sans-serif" font-weight="900" font-size="13" fill="#DC2626" text-anchor="middle">PROMOTIONAL</text>
+      <text x="0" y="14" font-family="'Inter', sans-serif" font-weight="700" font-size="10" fill="#1E293B" text-anchor="middle">UMBRELLA</text>
+    </g>
+  </g>
+
+  <!-- Top Badge -->
+  <rect x="30" y="30" width="180" height="32" rx="6" fill="#1E293B" stroke="#DC2626" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="6" fill="#DC2626"/>
+  <text x="66" y="51" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">PROMOTIONAL UMBRELLA</text>
+</svg>

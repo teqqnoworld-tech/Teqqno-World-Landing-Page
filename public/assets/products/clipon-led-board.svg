@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E22"/>
+      <stop offset="50%" stop-color="#151518"/>
+      <stop offset="100%" stop-color="#0E0E11"/>
+    </linearGradient>
+    <linearGradient id="aluminumFrame" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <!-- Spotlight effects from ceiling onto boards -->
+    <radialGradient id="spotlight1" cx="50%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glowYellow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="boardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#000000" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <!-- Wall Background -->
+  <rect width="800" height="600" fill="url(#wallBg)"/>
+
+  <!-- Ceiling Spotlights Beams -->
+  <polygon points="120,0 20,400 220,400" fill="url(#spotlight1)"/>
+  <polygon points="300,0 200,400 400,400" fill="url(#spotlight1)"/>
+  <polygon points="500,0 400,400 600,400" fill="url(#spotlight1)"/>
+  <polygon points="680,0 580,400 780,400" fill="url(#spotlight1)"/>
+
+  <!-- Row of 4 Ultra-Slim Clip-On Snap Frame LED Boards -->
+
+  <!-- Board 1 (Yellow Theme) -->
+  <g filter="url(#boardShadow)" transform="translate(45, 120)">
+    <!-- Snap Frame Border (Black Powder Coated Aluminum) -->
+    <rect width="155" height="360" rx="4" fill="url(#aluminumFrame)" stroke="#475569" stroke-width="2"/>
+    <!-- LED Glow Backlight Poster -->
+    <rect x="8" y="8" width="139" height="344" fill="#EAB308"/>
+    <!-- Graphic Content -->
+    <rect x="15" y="25" width="125" height="70" fill="#CA8A04" rx="4"/>
+    <text x="77" y="55" font-family="'Inter', sans-serif" font-weight="900" font-size="14" fill="#FFFFFF" text-anchor="middle">CLIP-ON</text>
+    <text x="77" y="75" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FEF08A" text-anchor="middle">LED BOARD</text>
+    <circle cx="77" cy="170" r="45" fill="#FEF08A"/>
+    <text x="77" y="175" font-family="'Inter', sans-serif" font-weight="900" font-size="28" fill="#854D0E" text-anchor="middle">HOT</text>
+    <rect x="25" y="270" width="105" height="40" rx="4" fill="#854D0E"/>
+    <text x="77" y="295" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">SPECIAL</text>
+  </g>
+
+  <!-- Board 2 (Red Theme) -->
+  <g filter="url(#boardShadow)" transform="translate(225, 120)">
+    <rect width="155" height="360" rx="4" fill="url(#aluminumFrame)" stroke="#475569" stroke-width="2"/>
+    <rect x="8" y="8" width="139" height="344" fill="#DC2626"/>
+    <rect x="15" y="25" width="125" height="70" fill="#991B1B" rx="4"/>
+    <text x="77" y="55" font-family="'Inter', sans-serif" font-weight="900" font-size="14" fill="#FFFFFF" text-anchor="middle">BURGER</text>
+    <text x="77" y="75" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FCA5A5" text-anchor="middle">MENU</text>
+    <circle cx="77" cy="170" r="45" fill="#FCA5A5"/>
+    <text x="77" y="175" font-family="'Inter', sans-serif" font-weight="900" font-size="24" fill="#991B1B" text-anchor="middle">DELUXE</text>
+    <rect x="25" y="270" width="105" height="40" rx="4" fill="#991B1B"/>
+    <text x="77" y="295" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">ORDER NOW</text>
+  </g>
+
+  <!-- Board 3 (Golden Pizza Theme) -->
+  <g filter="url(#boardShadow)" transform="translate(405, 120)">
+    <rect width="155" height="360" rx="4" fill="url(#aluminumFrame)" stroke="#475569" stroke-width="2"/>
+    <rect x="8" y="8" width="139" height="344" fill="#F59E0B"/>
+    <rect x="15" y="25" width="125" height="70" fill="#B45309" rx="4"/>
+    <text x="77" y="55" font-family="'Inter', sans-serif" font-weight="900" font-size="14" fill="#FFFFFF" text-anchor="middle">PIZZA</text>
+    <text x="77" y="75" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FEF3C7" text-anchor="middle">COMBO</text>
+    <circle cx="77" cy="170" r="45" fill="#FEF3C7"/>
+    <text x="77" y="175" font-family="'Inter', sans-serif" font-weight="900" font-size="24" fill="#B45309" text-anchor="middle">CRUST</text>
+    <rect x="25" y="270" width="105" height="40" rx="4" fill="#B45309"/>
+    <text x="77" y="295" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">BEST DEAL</text>
+  </g>
+
+  <!-- Board 4 (Neon Red/Orange Theme) -->
+  <g filter="url(#boardShadow)" transform="translate(585, 120)">
+    <rect width="155" height="360" rx="4" fill="url(#aluminumFrame)" stroke="#475569" stroke-width="2"/>
+    <rect x="8" y="8" width="139" height="344" fill="#EA580C"/>
+    <rect x="15" y="25" width="125" height="70" fill="#C2410C" rx="4"/>
+    <text x="77" y="55" font-family="'Inter', sans-serif" font-weight="900" font-size="14" fill="#FFFFFF" text-anchor="middle">SNAP</text>
+    <text x="77" y="75" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FED7AA" text-anchor="middle">FRAME</text>
+    <circle cx="77" cy="170" r="45" fill="#FED7AA"/>
+    <text x="77" y="175" font-family="'Inter', sans-serif" font-weight="900" font-size="24" fill="#C2410C" text-anchor="middle">PROMO</text>
+    <rect x="25" y="270" width="105" height="40" rx="4" fill="#9A3412"/>
+    <text x="77" y="295" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">BACKLIT</text>
+  </g>
+
+  <!-- Floor reflection -->
+  <rect y="540" width="800" height="60" fill="#0A0A0C"/>
+
+  <!-- Top Badge -->
+  <rect x="30" y="30" width="180" height="32" rx="6" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="6" fill="#F59E0B"/>
+  <text x="66" y="51" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">CLIPON LED BOARDS</text>
+</svg>

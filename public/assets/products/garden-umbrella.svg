@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141417"/>
+      <stop offset="100%" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14532D" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#052E16" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="redPanel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B91C1C"/>
+      <stop offset="100%" stop-color="#7F1D1D"/>
+    </linearGradient>
+    <linearGradient id="whitePanel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D1D5DB"/>
+    </linearGradient>
+    <linearGradient id="whitePole" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="25" stdDeviation="25" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Garden Ground Ambience -->
+  <ellipse cx="400" cy="530" rx="360" ry="60" fill="url(#grass)"/>
+  <ellipse cx="400" cy="540" rx="260" ry="25" fill="#000000" opacity="0.8"/>
+
+  <!-- Umbrella Assembly -->
+  <g filter="url(#shadow)">
+    <!-- 4-Leg Steel Cross Stand Base on Floor -->
+    <!-- Front/Back cross leg -->
+    <polygon points="385,510 415,510 425,545 375,545" fill="#CBD5E1"/>
+    <!-- Left/Right cross legs -->
+    <polygon points="260,545 540,545 535,535 265,535" fill="url(#whitePole)"/>
+    <rect x="382" y="520" width="36" height="20" rx="4" fill="#94A3B8"/>
+
+    <!-- Central Telescopic White Shaft Pole -->
+    <rect x="394" y="240" width="12" height="295" fill="url(#whitePole)"/>
+    <!-- Height Adjustment Clamp Knobs -->
+    <rect x="388" y="380" width="24" height="15" rx="3" fill="#F59E0B"/>
+    <circle cx="400" cy="387" r="4" fill="#B45309"/>
+
+    <!-- Umbrella Canopy Dome (Large Parasol) -->
+    <!-- Center Top Finial Cap -->
+    <ellipse cx="400" cy="85" rx="14" ry="10" fill="#FFFFFF"/>
+    
+    <!-- Umbrella Canopy Panels (Radial Slices from Top Peak to Scalloped Hem) -->
+    <!-- Panel 1: Far Left (White) -->
+    <path d="M 400,90 Q 240,130 130,240 Q 155,250 180,245 Q 280,150 400,90 Z" fill="url(#whitePanel)"/>
+    <!-- Panel 2: Mid Left (Red) -->
+    <path d="M 400,90 Q 280,150 180,245 Q 235,255 290,250 Q 345,150 400,90 Z" fill="url(#redPanel)"/>
+    <!-- Panel 3: Center Left (White) -->
+    <path d="M 400,90 Q 345,150 290,250 Q 345,260 400,255 Q 400,150 400,90 Z" fill="url(#whitePanel)"/>
+    <!-- Panel 4: Center Right (Red) -->
+    <path d="M 400,90 Q 400,150 400,255 Q 455,260 510,250 Q 455,150 400,90 Z" fill="url(#redPanel)"/>
+    <!-- Panel 5: Mid Right (White) -->
+    <path d="M 400,90 Q 455,150 510,250 Q 565,255 620,245 Q 520,150 400,90 Z" fill="url(#whitePanel)"/>
+    <!-- Panel 6: Far Right (Red) -->
+    <path d="M 400,90 Q 520,150 620,245 Q 645,250 670,240 Q 560,130 400,90 Z" fill="url(#redPanel)"/>
+
+    <!-- Hanging Valance Trim (Scalloped Edges) -->
+    <path d="M 130,240 Q 155,270 180,245 Q 235,280 290,250 Q 345,285 400,255 Q 455,285 510,250 Q 565,280 620,245 Q 645,270 670,240 L 670,265 Q 645,290 620,270 Q 565,305 510,275 Q 455,310 400,280 Q 345,310 290,275 Q 235,305 180,270 Q 155,295 130,265 Z" fill="#DC2626"/>
+
+    <!-- Branding Text & Custom Printing Mockup -->
+    <text x="455" y="195" font-family="'Inter', sans-serif" font-weight="900" font-size="18" fill="#FFFFFF" text-anchor="middle" transform="rotate(7 455 195)">GARDEN</text>
+    <text x="455" y="218" font-family="'Inter', sans-serif" font-weight="700" font-size="13" fill="#FEF08A" text-anchor="middle" transform="rotate(7 455 218)">UMBRELLA</text>
+    <text x="345" y="200" font-family="'Inter', sans-serif" font-weight="800" font-size="15" fill="#1E293B" text-anchor="middle" transform="rotate(-7 345 200)">TEQQNO</text>
+
+    <!-- Valance Contact & Tagline -->
+    <text x="400" y="275" font-family="'Inter', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">OUTDOOR BRANDING PARASOL • WATERPROOF FABRIC</text>
+  </g>
+
+  <!-- Top Badge -->
+  <rect x="30" y="30" width="180" height="32" rx="6" fill="#1E293B" stroke="#B91C1C" stroke-width="1.5"/>
+  <circle cx="50" cy="46" r="6" fill="#B91C1C"/>
+  <text x="66" y="51" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">GARDEN UMBRELLA</text>
+</svg>

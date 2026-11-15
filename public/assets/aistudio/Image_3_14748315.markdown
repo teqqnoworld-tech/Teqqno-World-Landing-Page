@@ -1,0 +1,216 @@
+---
+name: TeqqnoWorld Industrial Precision
+colors:
+  surface: '#131316'
+  surface-dim: '#131316'
+  surface-bright: '#39393c'
+  surface-container-lowest: '#0e0e11'
+  surface-container-low: '#1b1b1e'
+  surface-container: '#1f1f22'
+  surface-container-high: '#2a2a2d'
+  surface-container-highest: '#353438'
+  on-surface: '#e4e1e6'
+  on-surface-variant: '#e0c0af'
+  inverse-surface: '#e4e1e6'
+  inverse-on-surface: '#303033'
+  outline: '#a78b7c'
+  outline-variant: '#584235'
+  surface-tint: '#ffb68b'
+  primary: '#ffb68b'
+  on-primary: '#522300'
+  primary-container: '#ff7a00'
+  on-primary-container: '#5c2800'
+  inverse-primary: '#994700'
+  secondary: '#c8c5cc'
+  on-secondary: '#303035'
+  secondary-container: '#47464c'
+  on-secondary-container: '#b6b4bb'
+  tertiary: '#95ccff'
+  on-tertiary: '#003352'
+  tertiary-container: '#00a8ff'
+  on-tertiary-container: '#003a5c'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdbc8'
+  primary-fixed-dim: '#ffb68b'
+  on-primary-fixed: '#321200'
+  on-primary-fixed-variant: '#753400'
+  secondary-fixed: '#e4e1e8'
+  secondary-fixed-dim: '#c8c5cc'
+  on-secondary-fixed: '#1b1b20'
+  on-secondary-fixed-variant: '#47464c'
+  tertiary-fixed: '#cde5ff'
+  tertiary-fixed-dim: '#95ccff'
+  on-tertiary-fixed: '#001d32'
+  on-tertiary-fixed-variant: '#004a75'
+  background: '#131316'
+  on-background: '#e4e1e6'
+  surface-variant: '#353438'
+typography:
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 48px
+    fontWeight: '700'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes a high-performance B2B digital infrastructure for modern commercial print manufacturing, branding, and enterprise merchandising. Bridging technical engineering with bespoke brand craft, the visual identity conveys uncompromising structural fidelity, speed, and premium materiality.
+
+The design philosophy combines industrial corporate rigor with contemporary agency refinement:
+- **Atmospheric Depth:** A foundation of calibrated deep carbon and charcoal substrates provides an immersive dark environment that makes product configurations and proof previews jump off the canvas.
+- **Precision Energy:** The high-visibility solar orange accent commands attention across conversion funnels, critical actions, and key status changes without compromising enterprise sobriety.
+- **Micro-Detail Rigor:** Hairline borders, razor-sharp 1px structural strokes, and restrained radius values reflect precision machinery and millimetric accuracy.
+
+## Colors
+
+The palette is engineered for prolonged enterprise operator focus while maintaining visual impact for executive stakeholders.
+
+### Palette Architecture
+- **Primary Accent (`#FF7A00`):** The operational signal. Used strictly for core conversions, primary actions, active indicator badges, dynamic selections, and interactive hover edge-glows.
+- **Deep Base Canvas (`#0B0B0D`):** The non-reflective structural root layer beneath all elevated surfaces.
+- **Elevated Canvas / Containers (`#151518`):** Applied to modules, spec sheets, quote tables, and product cards to establish clear spatial distinction above the base canvas.
+- **Subtle Slate Structure (`#26262B`):** Architectural boundary line color for borders, rules, dividers, and empty states.
+- **Primary Text (`#FFFFFF`):** Uncompromised high-contrast white for headers, labels, and mission-critical metrics.
+- **Secondary Text (`#B8B8C0`):** Low-eye-strain, calibrated neutral for technical specs, descriptions, secondary metadata, and supportive navigation.
+
+## Typography
+
+Typography relies entirely on the universal clarity of Inter to anchor density, data density, and technical specifications.
+
+### Hierarchy & Usage
+- **Display & Section Titles (`headline-xl`, `headline-lg`):** Tight negative letter-spacing creates compact, confident lockups suitable for service categories, production volumes, and solution headers.
+- **Technical Headings (`headline-md`, `headline-sm`):** Structured and authoritative for dashboard widgets, configurator sections, and pricing tables.
+- **Narrative & Specs (`body-lg`, `body-md`, `body-sm`):** Open line height ensures effortless parsing of print dimensions, substrate coatings, finishing options, and batch dispatch logistics.
+- **Action & Metrics (`label-md`, `label-sm`):** Elevated weight (`500`-`600`) with uppercase styling applied selectively to `label-sm` for SKU codes, proofing status, batch tags, and material grades.
+
+## Layout & Spacing
+
+The structural layout utilizes a strict 12-column fluid grid system across desktop viewports, transitioning to 8 columns on tablet devices, and a focused 4-column stack on mobile viewports.
+
+### Rhythm & Alignment
+- **Canvas Boundaries:** Desktop displays leverage a broad 3rem outer margin (`margin`) to maintain perimeter breathability, tightening to 1.25rem (`margin-mobile`) on mobile viewports.
+- **Grid Guttering:** Enterprise dashboard views and multi-item catalogs maintain a strict 1.5rem gutter (`gutter`), dropping down to 1rem (`gutter-mobile`) on compact touchpoints to maximize interactive real estate.
+- **Component Padding Scale:** 
+  - Micro metrics and inline pills employ `space-xs` and `space-sm`.
+  - Form fields, action rows, and nested table cells utilize `space-md`.
+  - Cards, configuration containers, and modals standardize on `space-lg` to `space-xl` for interior padding.
+
+## Elevation & Depth
+
+This design system avoids heavy blurred multi-directional drop shadows, relying instead on tonal elevation, crisp structural separation, and low-opacity chromatic energy glows.
+
+### Elevation Hierarchy
+1. **Level 0 (Base Foundation - `#0B0B0D`):** The global viewport background, carrying ambient structural elements and non-interactive layout scaffolding.
+2. **Level 1 (Structural Containers - `#151518`):** Standard resting state for cards, tables, asset previews, and panels. Outlined with a continuous 1px `#26262B` border. No drop shadow.
+3. **Level 2 (Hover & Focal State):** Upon pointer interaction, cards shift slightly into visual focus. The boundary border transitions from `#26262B` to `#FF7A00` at 40% opacity, paired with an ambient perimeter glow: `box-shadow: 0 0 24px -4px rgba(255, 122, 0, 0.15)`.
+4. **Level 3 (Floating Overlays & Modals - `#1A1A1E`):** Floating navigation bars, flyout cart summaries, and material spec modals. Reinforced by a 1px `#26262B` stroke and an ambient dark occlusion shadow: `box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.7)`.
+
+## Shapes
+
+The design system adopts a tight, controlled rounding profile (Level 1) that communicates engineering precision, technical alignment, and industrial reliability.
+
+### Geometry Specifications
+- **Standard UI Elements (`0.25rem` / `4px`):** Applied uniformly to buttons, text inputs, dropdown triggers, checkboxes, status chips, and quantity selectors.
+- **Large Panels & Cards (`rounded-lg` / `0.5rem` / `8px`):** Applied to quotation cards, product catalogs, order overview modules, and proofing inspectors.
+- **Modal Viewports & Drawers (`rounded-xl` / `0.75rem` / `12px`):** Used strictly for high-level screen overlays and interactive print configuration dialogs.
+
+## Components
+
+### Buttons
+- **Primary Action:** Solid `#FF7A00` fill, `#FFFFFF` text, `label-md` font weight. Micro-transitions (`150ms ease-out`) for active states. On hover, background shifts to a saturated hue with a `0 0 16px rgba(255, 122, 0, 0.35)` outer glow.
+- **Secondary / Technical:** Charcoal `#151518` fill with a continuous 1px `#26262B` border and `#FFFFFF` text. On hover, border transitions to `#FF7A00` (60% opacity) and text remains stark white.
+- **Tertiary / Utility:** Ghost button with `#B8B8C0` text, transitioning to `#FFFFFF` text with a 1px transparent stroke shifting to `#26262B`.
+
+### Cards & Configuration Modules
+- **Container Architecture:** Rendered using the `#151518` surface fill with an unambiguous 1px `#26262B` border.
+- **Interactive State:** Hover invokes an instantaneous yet smooth edge accentuation using the primary orange glow (`0 0 20px rgba(255, 122, 0, 0.12)`) and shifts border color to `#FF7A00` (50% opacity).
+
+### Form Controls & Technical Inputs
+- **Text & Numeric Inputs:** Solid `#0B0B0D` internal fill, 1px `#26262B` border, and `#FFFFFF` text entry. Placeholder text is calibrated to `#B8B8C0` at 50% opacity. Focused inputs highlight with a sharp 1px `#FF7A00` border and a subtle inner edge luminescence.
+- **Checkboxes & Radios:** Sharp, industrial controls with a 1px `#26262B` border. Checked state snaps directly to `#FF7A00` fill with a solid white check or center pip.
+
+### Chips & Badges
+- **Status Badges:** Used for real-time tracking (e.g., "Pre-Press", "Plate Ready", "Dispatched"). Styled with a dark-tinted fill (`rgba(255, 122, 0, 0.08)`), crisp `#FF7A00` text, and a hairline border at 20% accent opacity.
+- **Specification Chips:** Fixed `#151518` background, `#B8B8C0` text, and `#26262B` border for paper weight (GSM), finish type, and unit sizing.
+
+### Data Tables & Spec Lists
+- **Order Matrices:** Row-based technical listings framed with 1px `#26262B` bottom border dividers. Row hover triggers a subtle background shift to `rgba(255, 255, 255, 0.02)` and highlights row actions in `#FF7A00`.
